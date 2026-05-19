@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: defence-mcp
+    env: docker
+    plan: free
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
